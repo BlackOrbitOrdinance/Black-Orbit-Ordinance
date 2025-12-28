@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>B.O.O Catalogue</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="stars"></div>
+
+<header class="catalogue-header">
+  <img src="boo-logo.png" class="logo">
+  <h1>ORDNANCE CATALOGUE</h1>
+  <p>Clearance Level: VERIFIED</p>
+</header>
+
+<section class="catalogue">
+
+  <div class="weapon">
+    <h3>OB-77 “GHOST LANCE”</h3>
+    <p class="type">Orbital Precision Rifle</p>
+    <p>Zero-drift kinetic rifle for vacuum combat.</p>
+  </div>
+
+  <div class="weapon">
+    <h3>BX-9 “BREACHER”</h3>
+    <p class="type">Boarding Shot System</p>
+    <p>Hull-breach optimised CQB weapon.</p>
+  </div>
+
+</section>
+
+<footer>
+  © Black Orbit Ordnance — Restricted Distribution.
+</footer>
+
+</body>
+</html>
