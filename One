@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Black Orbit Ordnance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #050607;
+      color: #e6e6e6;
+      line-height: 1.6;
+    }
+    header {
+      height: 100vh;
+      background: radial-gradient(circle at top, #111 0%, #050607 60%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      letter-spacing: 4px;
+      margin-bottom: 10px;
+    }
+    header h2 {
+      font-weight: normal;
+      font-size: 1.3rem;
+      opacity: 0.85;
+    }
+    header p {
+      margin-top: 30px;
+      font-size: 1.1rem;
+      max-width: 600px;
+    }
+    section {
+      padding: 80px 10%;
+    }
+    section h3 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #333;
+      padding-bottom: 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+    }
+    .card {
+      background: #0b0d0f;
+      padding: 30px;
+      border: 1px solid #1a1a1a;
+    }
+    .card h4 {
+      margin-top: 0;
+      letter-spacing: 1px;
+    }
+    .cta {
+      background: linear-gradient(180deg, #0b0d0f, #050607);
+      text-align: center;
+    }
+    .cta p {
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 15px 40px;
+      border: 1px solid #e6e6e6;
+      color: #e6e6e6;
+      text-decoration: none;
+      letter-spacing: 2px;
+      transition: all 0.3s ease;
+    }
+    .cta a:hover {
+      background: #e6e6e6;
+      color: #050607;
+    }
+    footer {
+      background: #020304;
+      padding: 40px 10%;
+      font-size: 0.8rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>BLACK ORBIT ORDNANCE</h1>
+  <h2>Control the Engagement.</h2>
+  <p>
+    When the universe pushes back — push harder.<br>
+    Precision weaponry for those who operate beyond hesitation.
+  </p>
+</header>
+
+<section>
+  <h3>About Black Orbit Ordnance</h3>
+  <p>
+    Black Orbit Ordnance is a corporate-grade arms manufacturer specialising in
+    deep-space combat solutions. Our weapons are engineered for dominance in
+    vacuum, low-gravity, and hostile environments where failure is not an option.
+  </p>
+  <p>
+    We do not sell firepower. We sell control — of distance, momentum, and outcome.
+  </p>
+</section>
+
+<section>
+  <h3>Product Divisions</h3>
+  <div class="grid">
+    <div class="card">
+      <h4>ORBITAL SUPPRESSION</h4>
+      <p>
+        Long-range precision systems designed for zero-drift firing and extreme
+        engagement distances.
+      </p>
+    </div>
+    <div class="card">
+      <h4>BOARDING & CQB</h4>
+      <p>
+        Compact, high-impact weapons optimised for ship-to-ship combat and
+        pressurised interiors.
+      </p>
+    </div>
+    <div class="card">
+      <h4>FLEET SECURITY</h4>
+      <p>
+        Heavy deterrence platforms for convoy protection and corporate asset defence.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h3>Why Black Orbit</h3>
+  <div class="grid">
+    <div class="card">
+      <h4>DATA-DRIVEN LETHALITY</h4>
+      <p>
+        Every system is tuned using combat telemetry and predictive engagement modelling.
+      </p>
+    </div>
+    <div class="card">
+      <h4>ZERO-G FORGED</h4>
+      <p>
+        Manufactured in orbital facilities to eliminate structural stress and
+        material weakness.
+      </p>
+    </div>
+    <div class="card">
+      <h4>DISCRETION BUILT-IN</h4>
+      <p>
+        Encrypted serialisation, black-box firmware, and off-grid servicing options.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h3>Engage With Confidence</h3>
+  <p>
+    Black Orbit Ordnance contracts exclusively with verified organisations.
+    If you require total control of the battlespace, initiate contact.
+  </p>
+  <a href="#">REQUEST ACCESS</a>
+</section>
+
+<footer>
+  <p>
+    © Black Orbit Ordnance — All deployments subject to interstellar compliance
+    statutes. Black Orbit Ordnance assumes no liability for planetary, orbital,
+    or existential damage.
+  </p>
+</footer>
+
+</body>
+</html>
