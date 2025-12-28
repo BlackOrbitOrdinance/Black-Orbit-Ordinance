@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #050607;
+  color: #e6e6e6;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255,255,255,0.05), transparent 40%),
+    linear-gradient(180deg, #050607 0%, #020304 100%);
+  z-index: -2;
+}
+
+.stars {
+  position: fixed;
+  inset: 0;
+  background-image: radial-gradient(1px 1px at 20px 30px, #fff, transparent),
+                    radial-gradient(1px 1px at 100px 80px, #aaa, transparent);
+  background-size: 300px 300px;
+  animation: drift 120s linear infinite;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+@keyframes drift {
+  from { transform: translateY(0); }
+  to { transform: translateY(-1000px); }
+}
+
+.hero, .catalogue-header {
+  text-align: center;
+  padding: 120px 10%;
+}
+
+.logo {
+  width: 140px;
+  margin-bottom: 25px;
+}
+
+section {
+  padding: 60px 10%;
+}
+
+.cta {
+  text-align: center;
+}
+
+.cta a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+}
+
+.catalogue {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+}
+
+.weapon {
+  background: rgba(10,12,14,0.85);
+  padding: 25px;
+  border: 1px solid #1a1a1a;
+}
+
+footer {
+  padding: 30px 10%;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
