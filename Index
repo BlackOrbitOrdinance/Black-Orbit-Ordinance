@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Black Orbit Ordnance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="stars"></div>
+
+<header class="hero">
+  <img src="boo-logo.png" alt="Black Orbit Ordnance Logo" class="logo">
+  <h1>BLACK ORBIT ORDNANCE</h1>
+  <h2>Control the Engagement.</h2>
+  <p>When the universe pushes back — push harder.</p>
+</header>
+
+<section>
+  <h3>About Black Orbit Ordnance</h3>
+  <p>
+    Corporate-grade armaments engineered for dominance in deep space.
+    Built to control the battlespace — not survive it.
+  </p>
+</section>
+
+<section class="cta">
+  <h3>Restricted Access</h3>
+  <p>Catalogue access requires verification.</p>
+  <a href="catalogue.html">ENTER CATALOGUE</a>
+</section>
+
+<footer>
+  © Black Orbit Ordnance — All rights reserved.
+</footer>
+
+</body>
+</html>
